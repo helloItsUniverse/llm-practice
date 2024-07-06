@@ -7,7 +7,7 @@ classifier = pipeline("sentiment-analysis", model="snunlp/KR-FinBert-SC")
 
 # STEP 3: Input data
 # text = "This was a masterpiece. Not completely faithful to the books, but enthralling from beginning to end. Might be my favorite of the three."
-text = "C쇼크에 멈춘 흑자비행…대한항공 1분기 영업적자 566억"
+text = "샤오미의 폴더블 폰의 점유율이 삼성전자보다 높아졌다."
 
 # STEP 4: Run Inference
 result = classifier(text)
